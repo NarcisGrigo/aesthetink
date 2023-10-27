@@ -343,7 +343,6 @@ h2 {
 
 /* L O G I N */
 
-
 /* R E G I S T E R */
 
 .register {
@@ -387,3 +386,159 @@ h2 {
 }
 
 /* R E G I S T E R */
+
+/* C O L L E C T I O N S */
+
+.collections {
+  background-color: #c4baa6;
+}
+
+.btnc {
+  position: absolute;
+  right: 0px;
+  padding-top: 10px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.btna {
+  position: absolute;
+  right: 0px;
+  padding-top: 10px;
+  margin-right: 140px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.btnh {
+  position: absolute;
+  right: 0px;
+  padding-top: 10px;
+  margin-right: 240px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+
+/* hover effect for <a>HOME/ARTISTS/CONTACT</a> */
+a.btna:after,
+a.btna:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 30px;
+  width: 71px;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+a.btna:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+a.btna:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.btna:hover:after,
+a.btna:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.btnh:after,
+a.btnh:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 30px;
+  width: 59px;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+a.btnh:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+a.btnh:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.btnh:hover:after,
+a.btnh:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+a.btnc:after,
+a.btnc:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 30px;
+  width: 87px;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+a.btnc:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+a.btnc:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.btnc:hover:after,
+a.btnc:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.tattoo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card>img {
+  width: 350px; height: 450px
+}
+
+.icarus_title {
+  padding-top: 100px;
+  padding-left: 610px;
+}
+
+/* C O L L E C T I O N S */
