@@ -390,7 +390,7 @@ h2 {
 /* C O L L E C T I O N S */
 
 .collections {
-  background-color: #c4baa6;
+  background-color: #1b201e;
 }
 
 .btnc {
@@ -419,7 +419,6 @@ h2 {
   font-size: 20px;
   color: #ffd700;
 }
-
 
 /* hover effect for <a>HOME/ARTISTS/CONTACT</a> */
 a.btna:after,
@@ -532,8 +531,9 @@ a.btnc:hover:before {
   justify-content: space-evenly;
 }
 
-.card>img {
-  width: 350px; height: 450px
+.card > img {
+  width: 350px;
+  height: 450px;
 }
 
 .icarus_title {
@@ -541,4 +541,362 @@ a.btnc:hover:before {
   padding-left: 610px;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  width: 20px;
+  height: 50px;
+  top: 60%; /* Adjust the vertical position as needed */
+}
+
+.carousel-control-prev {
+  left: 50px;
+}
+
+.carousel-control-next {
+  right: 50px;
+}
+
+.collections a {
+  z-index: 2; /* Adjust the z-index value as needed */
+}
+
+.icons {
+  font-size: 50px;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.icons:hover,
+.icons:active {
+  color: #ffd700;
+}
+
+.price {
+  font-family: "Raleway", sans-serif;
+  color: #8b7d33;
+  font-size: 20px;
+}
+
+.card-title {
+  color: #8b7d33;
+  font-family: "Philosopher", sans-serif;
+}
+
+.titletattoo {
+  color: #ffd700;
+  font-size: 25px;
+}
+
+.card-body {
+  text-align: center;
+}
+
 /* C O L L E C T I O N S */
+
+/* A R T I S T S */
+
+/* hover effect for <a>HOME/ARTISTS/CONTACT</a> */
+a.btncl:after,
+a.btncl:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 30px;
+  width: 125px;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+a.btncl:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+a.btncl:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.btncl:hover:after,
+a.btncl:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.btnho:after,
+a.btnho:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 30px;
+  width: 59px;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+a.btnho:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+a.btnho:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.btnho:hover:after,
+a.btnho:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+a.btnc:after,
+a.btnc:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 30px;
+  width: 87px;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+a.btnc:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+a.btnc:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.btnc:hover:after,
+a.btnc:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.btncl {
+  position: absolute;
+  right: 0px;
+  padding-top: 10px;
+  margin-right: 140px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.btnho {
+  position: absolute;
+  right: 50px;
+  padding-top: 10px;
+  margin-right: 240px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.artists {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.value {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.artistpg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.nameartist {
+  color: #8b7d33;
+  font-family: "Philosopher", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+
+.artistbody {
+  background-color: #c4baa6;
+}
+
+/* A R T I S T S */
+
+
+/* L O C A T I O N */
+
+.finds {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+.maps {
+  width: 400px;
+  height: 400px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.lorem {
+  color: #8b7d33;
+  font-family: "Philosopher", sans-serif;
+  margin-right: 200px;
+  border: 1px solid #8b7d33;
+  width: 400px;
+  height: 400px;
+  font-size: 20px;
+}
+
+.bking {
+  color: #ffd700;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.mrgin {
+  padding-left: 35px;
+}
+
+.findmap {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.borderblk {
+  border: 1px solid #8b7d33;
+  /* border-top: 1px solid #8b7d33;
+  border-left: 1px solid #8b7d33;
+  border-right: 1px solid #8b7d33; */
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  left: 270px;
+  bottom: -600px;
+}
+/* L O C A T I O N */
+
+
+/* C O N T A C T */
+
+a.btnar:after,
+a.btnar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 30px;
+  width: 71px;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+a.btnar:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+a.btnar:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.btnar:hover:after,
+a.btnar:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.btnar {
+  position: absolute;
+  right: -100px;
+  padding-top: 10px;
+  margin-right: 140px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.cntc {
+  position: absolute;
+  top: 50px;
+  right: 250px;
+  border: 1px solid #8b7d33;
+  text-align: center;
+  height: 700px;
+  width: 800px;
+  margin-top: 100px;
+}
+
+.credential {
+  color: #ffd700;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.undercred {
+  color: #8b7d33;
+}
+
+h3 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 80px;
+  margin-bottom: 70px;
+  color: #ffd700;
+  padding-top: 50px;
+}
+
+.fb {
+  color: rgb(69, 69, 254);
+}
+
+.inst {
+  color: palevioletred;
+}
+
+.tw {
+  color: white;
+}
+
+i {
+  margin: 10px;
+}
+
+/* C O N T A C T */
